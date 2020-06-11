@@ -1,5 +1,5 @@
 # cookit
-A jQuery plugin to add a cookies consent banner on a website. It is only weighs 4Ko ! 
+A jQuery plugin to add a cookies consent banner on a website. It only weighs 4Ko ! 
 
 ## 📥 Getting started
 Download [cookit.js](https://github.com/ThibaudArros/cookit/blob/master/cookit.js) (3Ko) and [cookit.css](https://github.com/ThibaudArros/cookit/blob/master/cookit.css) (1Ko)
