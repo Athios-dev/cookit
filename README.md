@@ -11,7 +11,7 @@ Get the latest version of jQuery on [jquery.com](https://code.jquery.com).
 ### Include cookit.css and cookit.js
 ```html
 <link rel="stylesheet" href="cookit.css">
-<script src="cookit.js" async defer></script>
+<script src="cookit.js"></script>
 ```
 
 ### Call the plugin
