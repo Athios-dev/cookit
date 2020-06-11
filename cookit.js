@@ -4,12 +4,12 @@
     var settings = $.extend({
       backgroundColor: '#1c1c1c',
       messageColor: '#fff',
-      messageText: "<b>Un petit creux ?</b> 🍪 En poursuivant la navigation sur ce site, vous acceptez l’utilisation de cookies.",
+      messageText: "<b>Do you hungry ?</b> 🍪 Pursuing navigation on this site, you accept the use of cookies.",
       linkColor: '#fad04c',
-      linkText: "En savoir plus",
+      linkText: "Learn more",
       linkUrl: "https://www.cookiesandyou.com",
       buttonColor: '#fad04c',
-      buttonText: "J'accepte",
+      buttonText: "I accept",
     }, options);
 
     const hasCookieConsent = getCookie('cookies-consent');
