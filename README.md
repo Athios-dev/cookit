@@ -17,7 +17,7 @@ Get the latest version of jQuery on [jquery.com](https://code.jquery.com).
 ### Call the plugin
 ```javascript
 $(document).ready(function() {
-  $.cookit();
+    $.cookit();
 });
 ```
 
@@ -25,29 +25,29 @@ $(document).ready(function() {
 You can also pass some informations to the plugin.
 ```javascript
 $(document).ready(function() {
-  var options = {
-    // some options...
-  };
-  $.cookit(options);
+    var options = {
+        // Some options...
+    };
+    $.cookit(options);
 });
 ```
 
 ## Change the style
 ```javascript
 var options = {
-  backgroundColor: '#000',
-  messageColor: '#fff',
-  linkColor: '#ffda10',
-  buttonColor: '#ffda10'
+    backgroundColor: '#fff',
+    messageColor: '#000',
+    linkColor: '#ffda10',
+    buttonColor: '#ffda10'
 }
 ```
 
-| Option              | Description                                                 | Type                              |
-|---------------------|-------------------------------------------------------------|-----------------------------------|
-| **backgroundColor** | This is the background color of the cookie banner           | **String** - color (hexa, rgb...) |
-| **messageColor**    | This is the color of the consent text                       | **String** - color (hexa, rgb...) |
-| **linkColor**       | This is the color of the link explaining more about cookies | **String** - color (hexa, rgb...) |
-| **buttonColor**     | This is the background color of the consent button          | **String** - color (hexa, rgb...) |
+| Option              | Description                                                 | Type                                                                   | Default     |
+|---------------------|-------------------------------------------------------------|------------------------------------------------------------------------|-------------|
+| **backgroundColor** | This is the background color of the cookie banner           | **String** - [CSS color](https://www.w3schools.com/colors/default.asp) | *"#1c1c1c"* |
+| **messageColor**    | This is the color of the consent text                       | **String** - [CSS color](https://www.w3schools.com/colors/default.asp) | *"#fff"*    |
+| **linkColor**       | This is the color of the link explaining more about cookies | **String** - [CSS color](https://www.w3schools.com/colors/default.asp) | *"#fad04c"* |
+| **buttonColor**     | This is the background color of the consent button          | **String** - [CSS color](https://www.w3schools.com/colors/default.asp) | *"#fad04c"* |
 
 *👉 For a beautiful banner, it is better when linkColor is identical to buttonColor...*
 
@@ -55,19 +55,19 @@ var options = {
 ## Change the content
 ```javascript
 var options = {
-  messageText: "You have to accept cookies... 🍪",
-  linkText: "More about cookies",
-  linkUrl: "https://...",
-  buttonText: "I accept !"
+    messageText: "You have to accept cookies...",
+    linkText: "More about cookies",
+    linkUrl: "https://...",
+    buttonText: "I accept !"
 }
 ```
 
-| Option          | Description                                                 | Type                           |
-|-----------------|-------------------------------------------------------------|--------------------------------|
-| **messageText** | This is the text of the consent banner                      | **String**                     |
-| **linkText**    | This is the text of the link explaining more about cookies  | **String**                     |
-| **linkUrl**     | This is the URL of the source explaining more about cookies | **String** - URL (https://...) |
-| **buttonText**  | This is the text of the consent button                      | **String**                     |
+| Option          | Description                                                 | Type                        | Default                                                                                      |
+|-----------------|-------------------------------------------------------------|-----------------------------|----------------------------------------------------------------------------------------------|
+| **messageText** | This is the text of the consent banner                      | **String** (allow HTML tag) | *"<b>Do you hungry ?</b> Pursuing navigation on this site, you accept the use of cookies."*  |
+| **linkText**    | This is the text of the link explaining more about cookies  | **String**                  | *"Learn more"*                                                                               |
+| **linkUrl**     | This is the URL of the source explaining more about cookies | **String** (URL)            | *"https://www.cookiesandyou.com"*                                                            |
+| **buttonText**  | This is the text of the consent button                      | **String**                  | *"I accept"*                                                                                 |
 
 
 ## 👀 Demo
