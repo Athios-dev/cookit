@@ -64,7 +64,7 @@ var options = {
 
 | Option          | Description                                                 | Type                        | Default                                                                                      |
 |-----------------|-------------------------------------------------------------|-----------------------------|----------------------------------------------------------------------------------------------|
-| **messageText** | This is the text of the consent banner                      | **String** (allow HTML tag) | *"<b>Do you hungry ?</b> Pursuing navigation on this site, you accept the use of cookies."*  |
+| **messageText** | This is the text of the consent banner                      | **String** (allow HTML tag) | *"<b>Do you hungry ?</b> 🍪 Pursuing navigation on this site, you accept the use of cookies."*  |
 | **linkText**    | This is the text of the link explaining more about cookies  | **String**                  | *"Learn more"*                                                                               |
 | **linkUrl**     | This is the URL of the source explaining more about cookies | **String** (URL)            | *"https://www.cookiesandyou.com"*                                                            |
 | **buttonText**  | This is the text of the consent button                      | **String**                  | *"I accept"*                                                                                 |
