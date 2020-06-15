@@ -12,7 +12,7 @@
       buttonText: "I accept",
     }, options);
     
-    const banner = $("<div id='cookit-banner'></div>");
+    const banner = $("<div id='cookit'></div>");
     const container = $("<div id='cookit-container'></div>");
     var message = link = button = null;
     const hasCookieConsent = getCookie('cookies-consent');
@@ -20,7 +20,7 @@
     if (!hasCookieConsent) {
       createBanner(settings);
       $('#cookit-button').on('click', () => {
-        const cookieBanner = $('#cookit-banner');
+        const cookieBanner = $('#cookit');
         cookieBanner.addClass('hidden');
         setCookie('cookies-consent', 1, 365);
       });

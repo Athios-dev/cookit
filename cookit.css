@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 body { margin: 0; }
 
-#cookit #cookit-banner {
+#cookit {
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -9,7 +9,7 @@ body { margin: 0; }
   display: flex;
   z-index: 999;
 }
-#cookit #cookit-banner.hidden { display: none; }
+#cookit.hidden { display: none; }
 
 #cookit #cookit-container {
   margin: auto;
