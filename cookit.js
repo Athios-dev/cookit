@@ -4,11 +4,11 @@
     var settings = $.extend({
       backgroundColor: '#1c1c1c',
       messageColor: '#fff',
-      messageText: "<b>Do you hungry ?</b> 🍪 Pursuing navigation on this site, you accept the use of cookies.",
       linkColor: '#fad04c',
+      buttonColor: '#fad04c',
+      messageText: "<b>Do you hungry ?</b> 🍪 Pursuing navigation on this site, you accept the use of cookies.",
       linkText: "Learn more",
       linkUrl: "https://www.cookiesandyou.com",
-      buttonColor: '#fad04c',
       buttonText: "I accept",
     }, options);
     
