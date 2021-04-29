@@ -1,6 +1,6 @@
 # Cookit
-``⚠️ Not RGPD compliant anymore``
-👉 A jQuery plugin to add a cookies consent banner on a website. 
+``⚠️ Not RGPD compliant anymore``<br>
+👉 A jQuery plugin to add a cookies consent banner on a website.<br>
 🚀 It only weighs 4Ko! 
 
 ## 🤔 About
