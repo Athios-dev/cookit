@@ -1,17 +1,41 @@
-# cookit
-A jQuery plugin to add a cookies consent banner on a website. It only weighs 4Ko! 
+# Cookit
+``⚠️ Not RGPD compliant anymore``
+👉 A jQuery plugin to add a cookies consent banner on a website. 
+🚀 It only weighs 4Ko! 
+
+## 🤔 About
+
+### Tools
+🐙 Github 💻 VS Code 🧰 jQuery
+
+### Languages
+🟠 HTML 🔵 CSS 🟡 JavaScript
 
 ## 📥 Getting started
-Download [cookit.js](https://github.com/ThibaudArros/cookit/blob/master/cookit.js) (3Ko) and [cookit.css](https://github.com/ThibaudArros/cookit/blob/master/cookit.css) (1Ko).
 
-## 📑 Usage
-### Include jQuery
+### Prerequisites
 Get the latest version of jQuery on [jquery.com](https://code.jquery.com).
 
-### Include cookit.css and cookit.js
+### Installation
+Download the following files:
+* [cookit.css](https://github.com/ThibaudArros/cookit/blob/master/cookit.css)
+* [cookit.js](https://github.com/ThibaudArros/cookit/blob/master/cookit.js)
+
+## 📑 Usage
+
+### Includes
+
+#### Styles
 ```html
-<link rel="stylesheet" href="cookit.css">
-<script src="cookit.js"></script>
+<link rel="stylesheet" href="path-to/cookit.css">
+```
+
+#### Scripts
+```html
+<!-- Inside the <head> -->
+<script src="path-to/jquery.js"></script>
+<!-- At the end of the <body> -->
+<script src="path-to/cookit.js"></script>
 ```
 
 ### Call the plugin
@@ -21,7 +45,7 @@ $(document).ready(function() {
 });
 ```
 
-## ⚙️ Options
+## ⚙️ Settings
 You can also pass some informations to the plugin.
 ```javascript
 $(document).ready(function() {
@@ -32,7 +56,7 @@ $(document).ready(function() {
 });
 ```
 
-## Change the style
+### Style
 ```javascript
 var options = {
     backgroundColor: '#fff',
@@ -51,8 +75,7 @@ var options = {
 
 *👉 For a beautiful banner, it is better when linkColor is identical to buttonColor...*
 
-
-## Change the content
+### Content
 ```javascript
 var options = {
     messageText: "You have to accept cookies...",
@@ -69,6 +92,8 @@ var options = {
 | **linkUrl**     | This is the URL of the source explaining more about cookies | **String** (URL)            | *"https://www.cookiesandyou.com"*                                                            |
 | **buttonText**  | This is the text of the consent button                      | **String**                  | *"I accept"*                                                                                 |
 
-
 ## 👀 Demo
-You can download [here](https://thibaudarros.github.io/cookit/demo.html) a demo of this plugin.
+You can see [here](https://thibaudarros.github.io/cookit/demo.html) a demo of this plugin.
+
+***
+**Made with 💛 by [Thibaud d'Arros](https://github.com/ThibaudArros)**
