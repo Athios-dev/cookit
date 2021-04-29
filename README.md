@@ -71,4 +71,4 @@ var options = {
 
 
 ## 👀 Demo
-You can download [here](https://github.com/ThibaudArros/cookit/blob/master/demo.html) a demo of this plugin.
+You can download [here](https://thibaudarros.github.io/cookit/demo.html) a demo of this plugin.
