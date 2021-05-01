@@ -56,6 +56,17 @@ $(document).ready(function() {
 });
 ```
 
+### Global
+```javascript
+var options = {
+    lifetime: 30
+}
+```
+
+| Option        | Description                                            | Type                                                                             | Default  |
+|---------------|--------------------------------------------------------|----------------------------------------------------------------------------------|----------|
+| **lifetime** | Define the cookie lifetime (days)         | **int**                                                                      | *365*   |
+
 ### Style
 ```javascript
 var options = {
