@@ -33,7 +33,8 @@
     }
 
     // 👀 EVENT LISTENER (click)
-    button.on('click', () => {
+    button.on('click', (e) => {
+      e.preventDefault();
       banner.remove();
       setCookie('cookie-consent', 1, settings.lifetime);
     });

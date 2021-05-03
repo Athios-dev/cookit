@@ -1,0 +1,28 @@
+{
+  "name": "cookit",
+  "version": "1.0.0",
+  "description": "A jQuery plugin to add a cookies consent banner on a website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Athios-dev/cookit.git"
+  },
+  "author": "Athios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Athios-dev/cookit/issues"
+  },
+  "homepage": "https://github.com/Athios-dev/cookit#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}

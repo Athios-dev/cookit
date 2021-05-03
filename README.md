@@ -1,7 +1,7 @@
 # Cookit
 ``⚠️ Not RGPD compliant anymore``<br>
 👉 A jQuery plugin to add a cookies consent banner on a website.<br>
-🚀 It only weighs 4Ko! 
+🚀 It only weighs 3Ko! 
 
 ## 🤔 About
 
@@ -18,8 +18,8 @@ Get the latest version of jQuery on [jquery.com](https://code.jquery.com).
 
 ### Installation
 Download the following files:
-* [cookit.css](https://github.com/ThibaudArros/cookit/blob/master/cookit.css)
-* [cookit.js](https://github.com/ThibaudArros/cookit/blob/master/cookit.js)
+* [cookit.min.css](https://github.com/Athios-dev/cookit/blob/master/public/css/cookit.min.css)
+* [cookit.min.js](https://github.com/Athios-dev/cookit/blob/master/public/js/cookit.min.js)
 
 ## 📑 Usage
 
@@ -27,15 +27,15 @@ Download the following files:
 
 #### Styles
 ```html
-<link rel="stylesheet" href="path-to/cookit.css">
+<link rel="stylesheet" href="path-to/cookit.min.css">
 ```
 
 #### Scripts
 ```html
 <!-- Inside the <head> -->
-<script src="path-to/jquery.js"></script>
+<script src="path-to/jquery.min.js"></script>
 <!-- At the end of the <body> -->
-<script src="path-to/cookit.js"></script>
+<script src="path-to/cookit.min.js"></script>
 ```
 
 ### Call the plugin
@@ -104,7 +104,4 @@ var options = {
 | **buttonText**  | This is the text of the consent button                      | **String**                  | *"I accept"*                                                                                 |
 
 ## 👀 Demo
-You can see [here](https://thibaudarros.github.io/cookit/demo.html) a demo of this plugin.
-
-***
-**Made with 💛 by [Thibaud d'Arros](https://github.com/ThibaudArros)**
+You can see [here](https://athios-dev.github.io/cookit/demo) a demo of this plugin.
