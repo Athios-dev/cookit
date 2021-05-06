@@ -104,4 +104,4 @@ var options = {
 | **buttonText**  | This is the text of the consent button                      | **String**                  | *"I accept"*                                                                                 |
 
 ## 👀 Demo
-You can see [here](https://athios-dev.github.io/cookit) a demo of this plugin.
+You can see [here](https://athios-dev.github.io/cookit/public) a demo of this plugin.
