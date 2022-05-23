@@ -7,7 +7,7 @@
       messageColor: '#fff',
       linkColor: '#fad04c',
       buttonColor: '#fad04c',
-      buttonTextColor:#00000,
+      buttonTextColor:'#00000',
       messageText: "<b>Do you hungry ?</b> 🍪 Pursuing navigation on this site, you accept the use of cookies.",
       linkText: "Learn more",
       linkUrl: "https://www.cookiesandyou.com",
